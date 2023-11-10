@@ -1,0 +1,5 @@
+let date = new Date()
+let date1 = new Date(date.getFullYear(),date.getMonth(), date.getDate() - 1, 12)
+let date2 = new Date(date.getFullYear(),date.getMonth(), date.getDate(), date.getHours())
+let result = (date2 - date1) / (1000 * 60 * 60)
+console.log(result)
